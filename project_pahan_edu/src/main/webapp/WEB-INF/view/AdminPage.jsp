@@ -365,7 +365,7 @@ h2 {
                     &#128203; View Customers
                 </a>
 
-                <h2>Billing Demo</h2>
+                <h2>Bill List</h2>
                 <a href="${pageContext.request.contextPath}/Bill?action=list" class="nav-link billing-link">
                     &#128179; Go to Bill List
                 </a>
