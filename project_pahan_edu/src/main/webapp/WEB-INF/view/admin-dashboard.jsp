@@ -307,7 +307,7 @@ h1::after {
             
             <div class="nav-links">
                 <!-- Link back to index.jsp -->
-                <<a href="<%= request.getContextPath() %>/adminPage" class="nav-link admin-link">
+                <a href="<%= request.getContextPath() %>/adminPage" class="nav-link admin-link">
                  📊 Go to Admin Page
                  </a>
 
