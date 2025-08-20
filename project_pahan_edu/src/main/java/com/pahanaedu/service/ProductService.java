@@ -29,8 +29,8 @@ public class ProductService {
     }
 
     // Retrieve single product by ID
-    public Product getProductById(int id) { // FIXED: Method name from getproductById to getProductById
-        return dao.getProductById(id); // FIXED: Assuming DAO method is also corrected
+    public Product getProductById(int id) { 
+        return dao.getProductById(id); 
     }
 
     // Add new product
