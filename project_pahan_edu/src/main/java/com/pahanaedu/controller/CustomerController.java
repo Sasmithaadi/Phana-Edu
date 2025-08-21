@@ -16,7 +16,7 @@ public class CustomerController extends HttpServlet {
     private final CustomerService customerService = new CustomerService();
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String action = request.getParameter("action");
         if (action == null) action = "list";
@@ -56,7 +56,7 @@ public class CustomerController extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         int accountNumber = Integer.parseInt(request.getParameter("accountNumber"));
